@@ -1,0 +1,110 @@
+V "GNAT Lib v3.13 "
+A -gnatwu
+A -g
+A -gnato
+P
+R nnvvnnnvnnnnvvvvvvvvvnnnnvnnnnvnnnnnnnnnnnn
+
+U prac12%b		prac12.adb		6C4ECB6A PK KU
+
+U prac12%s		prac12.ads		46C47584 PK KU
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W lista%s		lista.adb		lista.ali  ED
+W prac11%s		prac11.adb		prac11.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		19941113030442 2359F9ED
+D a-except.ads		20000206125838 287FCF69
+D a-finali.ads		19971119143818 3F32DEEF
+D a-filico.ads		19970305015844 1DECB9AC
+D a-ioexce.ads		19941113062010 175CB67B
+D a-stream.ads		19971119143846 5F7C277B
+D a-tags.ads		19980810213500 45EF7E4E
+D a-textio.ads		20000206125936 2D24B708
+D interfac.ads		19990427033020 0357E00A
+D i-cstrea.ads		19991223143434 70A316EF
+D lista.ads		20060117221612 796CBB7B
+D lista.adb		20060117221616 0BA19A61
+D prac11.ads		20051229153312 0D86A893
+D prac12.ads		20051229122658 322E666C
+D prac12.adb		20060117221848 5E60AD06
+D system.ads		20000127011654 4379A8A7
+D s-exctab.ads		19990919095914 7A25F5F9
+D s-ficobl.ads		19990212183920 0C03FD47
+D s-finimp.ads		19980221004008 1C201C0F
+D s-finroo.ads		19960921225928 166D4EDA
+D s-parame.ads		20000204163622 25FE086A
+D s-secsta.ads		19990723142132 60A2A5CD
+D s-soflin.ads		19991222084230 006B24D7
+D s-stache.ads		19990409121030 42B57F2A
+D s-stalib.ads		20000204163632 438B3864
+D s-stoele.ads		19980907140904 131D4539
+D s-stratt.ads		19981014005624 1761725B
+D s-unstyp.ads		19990701235612 78AFB91D
+D text_io.ads		19961216034652 7854661C
+D unchconv.ads		19960730024842 72DC4539
+X 11 lista.ads
+5G9*Lista 14|3r6 21r41 25r33 29r34
+15P6*Tipo 14|22r58 26r42 30r44
+27U10*Es_Vacia 15|19r32 32r24 44r27 44r64 69r25 69r63
+31U10*Primero 15|20r44 21r56 33r48 45r30 46r49 72r42
+35U10*Resto 15|22r53 23r59 33r95 46r105 47r61 73r48
+X 13 prac11.ads
+1U9*Prac11 14|1r6 2r5
+11A12*Tipo_Nombre 14|16r16 35r16
+15E9*Tipo_Suelo 14|52r15 15|40r11 55r11 65r11 79r15
+17R9*Tipo_Cuenca_Fluvial 14|25r40 15|17r31
+18a10*Nombre 15|20r15
+20e10*Suelo 15|45r41
+23F12*Tipo_Precipitacion 14|17r23
+25F12*Tipo_Volumen 14|46r13 15|17r83 29r13 42r17
+27U13*Volumen_Cuenca 15|21r17
+X 14 prac12.ads
+4U9*Prac12 15|1b14
+14R9*Tipo_Medida 21r48
+16a7*Nombre 15|20r56
+17f7*Precipitacion 15|21r68
+21U12*Lista_Precipitaciones 15|19r10 20r22 22r31 14|22r36 15|21r34 23r37
+. 44r42 69r41
+22P12*Tipo_Precipitaciones 15|17r54 14|37r25 15|28r15 41r11 54r11 64r11 14|45r15
+25U12*Lista_Embalse 15|33r81 44r13 45r16 46r35 46r91 47r47 14|26r28 15|32r10
+. 33r34
+26P12*Tipo_Embalse 29r41 15|27r15 39r11 53r11 14|44r15
+29U12*Lista_Embalses 30r29 15|69r10 72r27 73r33
+30P12*Tipo_Embalses 36r18 15|63r12
+33R9*Tipo_Cuenca_Hidrografica 51r15 15|78r15
+35a7*Nombre
+36P7*Embalses 15|84r36
+37P7*Precipitaciones 15|84r48
+41I12*Tipo_Porcentaje 53r15 15|56r11 66r11 80r15
+43U13*Volumen_Embalse 15|26b13 33r65 59r55
+44P10 E 15|27b10 32r33 33r56 33r101
+45P10 Ps 15|28b10 33r59 33r104
+50U13*Es_Suelo_Valido 15|77b13
+51r10 Ch 15|78b10 84r33 84r45
+52e10 S 15|79b10 84r64
+53i10 P 15|80b10 84r66
+X 15 prac12.adb
+17U13 Volum_Total_Cu 22r13 23r19 33r19 46r20
+17r29 C 20r13 21r32 22r29 23r35
+17P51 Ps 19r41 20r52 21r64 22r59 23r65
+38U13 Volum_Total_Cu_Suel_Val 46r66 47r22 59r23
+39P7 E 44r36 45r38 46r57 46r111 47r67
+40e7 S 45r47 46r114 47r70
+41P7 Ps 44r73 46r60 46r116 47r72
+52U13 Condicion 72r17
+53P7 E 59r47 59r71
+54P7 Ps 59r51 59r73
+55e7 S 59r49
+56i7 P 59r81
+62U13 Condicion_Embalses 73r13 84r14
+63P7 Es 69r34 72r50 73r54
+64P7 Ps 69r72 72r54 73r58
+65e7 S 72r57 73r61
+66i7 P 72r60 73r64
+
